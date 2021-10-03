@@ -32,7 +32,7 @@ Add the remote for you app with
 heroku git:remote -a <your app name>
 ```
 ### Install Gunicorn
-The default django server is only for development. You can't use that when you deploy it. App server we gonna use is Gunicorn. For the beginning install it on you local maching using
+The default django server is only for development. You can't use that when you deploy it. App server we gonna use is Gunicorn. For the beginning install it on you local machine using
 ```
 pip install gunicorn
 ```
