@@ -11,7 +11,7 @@ Type in the command line
 ```
 heroku login
 ```
-wait for the browser and login. 
+wait for the browser windows pop up and login. 
 ### Create a repo for heroku account
 Go inside the directory with manage.py file and init repo
 ```
@@ -98,7 +98,7 @@ So now you gonna see your django app working on heroku
 pip install psycopg2
 pip freeze > requirements.txt
 ```
-### Modify the configuration for the data base
+### Modify the configuration for the database
 Go to your Heroku profile -> your heroku app -> Settings -> Config Vars -> Reveal Config Vars. Copy DATABASE_URL\
 It has the following structure: `postgres://username:password@host:port/db_name`\
 Add then corresponding values in settings.py
